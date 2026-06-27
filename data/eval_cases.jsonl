@@ -1,0 +1,5 @@
+{"content": "这是一条正常评论", "expected": "approved", "category": "normal"}
+{"content": "AAAAAAAAAAAA 点击领取 http://a http://b http://c http://d", "expected": "rejected", "category": "spam"}
+{"content": "这篇文章讨论暴力事件的新闻报道方式", "expected": "approved", "category": "contextual"}
+{"content": "包含敏感但语义不明确的内容", "expected": "needs_review", "category": "borderline"}
+
